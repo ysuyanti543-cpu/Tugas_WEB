@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Beranda - Sejarah Jawa Tengah</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .hero {
+      background: url(borobudur.jpg) no-repeat center center/cover;
+      height: 75vh;
+      color: white;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-color: rgba(12, 7, 7, 0.5);
+      z-index: 0;
+    }
+    .hero .container {
+      position: relative;
+      z-index: 1;
+    }
+    .feature-icon {
+      font-size: 3rem;
+      color: #0d6efd;
+    }
+  </style>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">SejarahJateng</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="latar.html">Latar Sejarah</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero text-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold mb-3">Selamat Datang di Sejarah Jawa Tengah</h1>
+      <p class="lead mb-4">Menelusuri jejak peradaban, budaya, dan kerajaan kuno yang membentuk identitas tanah Jawa Tengah.</p>
+      <a href="latar.html" class="btn btn-primary btn-lg shadow">Jelajahi Sejarah</a>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-5">Kenapa Memahami Sejarah Jawa Tengah?</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm h-100 p-4">
+            <div class="feature-icon mb-3">
+              📜
+            </div>
+            <h5 class="fw-semibold mb-3">Warisan Budaya</h5>
+            <p>Mengenal candi-candi dan tradisi yang menjadi warisan berharga bagi bangsa dan dunia.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm h-100 p-4">
+            <div class="feature-icon mb-3">
+              🏰
+            </div>
+            <h5 class="fw-semibold mb-3">Kerajaan Bersejarah</h5>
+            <p>Menelusuri kerajaan-kerajaan besar seperti Mataram Kuno, Demak, dan Pajang yang berpengaruh.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm h-100 p-4">
+            <div class="feature-icon mb-3">
+              🎭
+            </div>
+            <h5 class="fw-semibold mb-3">Seni dan Budaya</h5>
+            <p>Memahami seni tradisional seperti wayang, batik, dan gamelan yang memperkaya budaya Jawa Tengah.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-light py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-4">Sejarah Singkat Jawa Tengah</h2>
+      <p class="mx-auto mb-4" style="max-width: 700px;">
+        Jawa Tengah adalah daerah yang kaya akan sejarah dan budaya, menjadi saksi perkembangan berbagai kerajaan besar dari zaman Hindu-Buddha hingga era Islam.  
+        Candi Borobudur dan Prambanan adalah bukti nyata kemegahan masa lalu yang masih dikagumi dunia hingga kini.  
+        Keberagaman budaya Jawa Tengah juga terwujud dalam seni dan tradisi yang masih dilestarikan masyarakat.
+      </p>
+      <a href="latar.html" class="btn btn-outline-primary btn-lg">Pelajari Lebih Lanjut</a>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    &copy; 2025 Sejarah Jawa Tengah | Semua Hak Dilindungi
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
